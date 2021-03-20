@@ -1,0 +1,95 @@
+int led2 = D7;
+
+void setup() {
+
+
+	pinMode(led2, OUTPUT);
+
+}
+
+void loop() {
+    // To Blink my last name on the led
+    // For first letter V
+	digitalWrite(led2, HIGH);
+    delay(700);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+	digitalWrite(led2, HIGH);
+    delay(700);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+	digitalWrite(led2, HIGH);
+    delay(700);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+	digitalWrite(led2, HIGH);
+    delay(2000);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+	// For Second letter E
+	
+	digitalWrite(led2, HIGH);
+    delay(500);
+    
+	digitalWrite(led2, LOW);
+	delay(700);
+	
+	// for third letter R
+	
+	digitalWrite(led2, HIGH);
+    delay(700);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+	digitalWrite(led2, HIGH);
+    delay(700);
+    
+	digitalWrite(led2, LOW);
+	delay(2000);
+	
+	digitalWrite(led2, HIGH);
+    delay(700);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+	// For Fourth letter M
+	
+	digitalWrite(led2, HIGH);
+    delay(2000);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+	digitalWrite(led2, HIGH);
+    delay(2000);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+	// For Last letter A
+	
+	digitalWrite(led2, HIGH);
+    delay(700);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+	digitalWrite(led2, HIGH);
+    delay(2000);
+    
+	digitalWrite(led2, LOW);
+	delay(500);
+	
+
+
+}
